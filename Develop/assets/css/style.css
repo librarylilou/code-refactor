@@ -1,26 +1,26 @@
-/* */
+/* fits the html document to the webpage without margins */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* */
+/* the background color of the websites body */
 body {
     background-color: #d9dcd6;
 }
-/* */
+/* the navigation bar and its design for text, color and size */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* */
+/* company's name in navbar size and placement */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* */
+/* the navigation bars potential links layout, font and placement */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,22 +28,22 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* */
+/* since the navigation bar's links are listed,there is 'no style' to said list  */
 .header div ul {
     list-style-type: none;
 }
-/* */
+/* title of listed link's placement and display*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* */
+/* the color of text for listed links in navbar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* */
+/* the container that will hold 3 boxes with info on the listed link names in navbar */
 .hero {
     height: 800px;
     width: 100%;
@@ -52,13 +52,13 @@ a {
     background-size: cover;
     background-position: center;
 }
-/* */
+/* the container that will hold the content of the 3 navbar links */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* */
+/* the box dedicated to search engine optimization content and its placement, size, color, font and margin */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -67,16 +67,16 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* */
+/* for size, the limited height of the image with search engine optimization notebook */
 .search-engine-optimization img {
     max-height: 200px;
 }
-/* */
+/* the heading as 'search engine optimization' and its text font size and text margin */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* */
+/* the box dedicated to online reputation management content and its placement, size, color, font and margin */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,16 +85,16 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* */
+/* the image of an online reputaion chart and its limited height for size */
 .online-reputation-management img {
     max-height: 200px;
 }
-/* */
+/* the heading as 'online reputation management' and its text font size and text margin */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* */
+/* the box dedicated to social media marketing content and its placement, size, color, font and margin */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -103,30 +103,32 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* */
+/* the image of social media marketing team and its limited height for size */
 .social-media-marketing img {
     max-height: 200px;
 }
-/* */
+/* the heading as 'social media marketing' and its text font size and text margin */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* */
+/* specifies what side for each photo found in 1 of 3 info boxes is placed on-
+if image has this class its to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/* */
+/* specifies what side for each photo found in 1 of 3 info boxes is placed on-
+if image has this class its to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/* */
+/* the paragraph of info found in all three boxes and its text font-size */
 p {
     font-size: 16px;
 }
-/* */
+/* this is the container the provides 3 benefits to its users; here is the placement, margin, size and font of it */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -137,58 +139,58 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* */
+/* 1 of 3 sections of benefit's container for the benefit 'lead generation' and its margin and text color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* */
+/* the heading as 'lead generation' and its margin and text placement */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* */
+/* the icon image of 'lead generation' and its display, margin and limited width */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* */
+/* 2 of 3 sections of benefit's container for the benefit 'brand awareness' and its margin and text color*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* */
+/* the heading as 'brand awarness' and its margin and text placement */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* */
+/* the icon image of 'brand awareness' and its display, margin and limited width */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* */
+/* 3 of 3 sections of benefit's container for the benefit 'cost management' and its margin and text color*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* */
+/* the icon image of 'cost management' and its display, margin and limited width */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* */
+/* the class 'footer' as displayed at the bottom of the page and its placement, text-font, and padding */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* */
+/* the text of the footer's header and its font-size */
 .footer h3 {
     font-size: 20px;
 }
