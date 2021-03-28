@@ -20,4 +20,9 @@ Here's a link and a look!
 
  https://librarylilou.github.io/hw01-codeRefactor/
 
-![Image of Webpage:]()
+#### Website: 
+![Image of Webpage:](./Assets/01-html-css-git-homework-demo.png)
+
+#### Footer:
+![Image of footer :](./Assets/Horiseon3:3.png)
+
