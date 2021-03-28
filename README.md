@@ -14,7 +14,10 @@ This includes, adding alt attributes to the image elements, checking for a seque
 My method for the CSS document was to begin with checking that all the IDs were being utilized and had a style function, to match the IDs provided from the HTML document. Once I cleared out the IDs that were dead weight to the CSS document, I continued to organize the semantic structure to match the order of the HTML document. So, as you scroll down the web page or the HTML document from top to bottom in sequential order, the styling functions of the CSS document correspond accordingly.
 
 ## Links and Screens
-The website is a dedicated source that ensures access to those with disabilities by providing the option to video captions. Want to see?!
+The website is a dedicated source that ensures access to those with disabilities by providing the option to video captions, screen readers, and braille keyboards. Want to see?!
 
 Here's a link and a look!
 
+ https://librarylilou.github.io/hw01-codeRefactor/
+
+![Image of Webpage:]()
